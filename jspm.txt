@@ -18,4 +18,12 @@ exemple:
 
 - import {nSQL} from 'https://jspm.dev/nano-sql';
 - gunjs ->  https://jspm.dev/gun
+- import React from 'https://jspm.dev/react@16';
+- import ReactDOM from 'https://jspm.dev/react-dom@16';
+- import MuiThemeProvider from 'https://jspm.dev/material-ui@0.20/styles/MuiThemeProvider';
+- import AppBar from 'https://jspm.dev/material-ui@0.20/AppBar';
+- import DatePicker from 'https://jspm.dev/material-ui@0.20/DatePicker';
+
+- import Vue from 'https://jspm.dev/vue/dist/vue'
+
 
