@@ -1,0 +1,21 @@
+/* from  jspm.org,  jspm.dev */
+/* 
+https://jspm.dev/[nom du npm package] ou 
+https://jspm.dev/npm:pkg@x.y.z.
+*/
+exemple: 
+<script type="module">
+  // Statically:
+  import babel from 'https://jspm.dev/@babel/core';
+  console.log(babel);
+
+  // Dynamically:
+  (async () => {
+    console.log(await import('//jspm.dev/lodash@4/clone'));
+  })();
+</script>
+
+
+- import {nSQL} from 'https://jspm.dev/nano-sql';
+- gunjs ->  https://jspm.dev/gun
+
